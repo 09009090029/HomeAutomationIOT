@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ground Floor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <ImageView
+            android:onClick="buttonClick"
+            android:tag="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:src="@drawable/blub_bg" />
+
+        <ImageView
+            android:onClick="buttonClick"
+            android:src="@drawable/led_bg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:tag="2"
+            android:layout_margin="5dp"
+            android:layout_weight="2" />
+
+        <ImageView
+            android:onClick="buttonClick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/fan_bg"
+            android:tag="3"
+
+            android:layout_weight="2" />
+
+        <ImageView
+            android:onClick="buttonClick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:tag="4"
+            android:src="@drawable/charging_bg"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Floor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <ImageView
+            android:onClick="buttonClick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:tag="5"
+            android:layout_weight="2"
+            android:src="@drawable/blub_bg" />
+
+        <ImageView
+
+            android:onClick="buttonClick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/led_bg"
+            android:tag="6"
+            android:layout_margin="5dp"
+            android:layout_weight="2" />
+
+        <ImageView
+
+            android:onClick="buttonClick"
+            android:tag="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/fan_bg"
+            android:layout_weight="2" />
+
+        <ImageView
+
+            android:onClick="buttonClick"
+            android:tag="8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/charging_bg"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Floor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <ImageView
+
+            android:onClick="buttonClick"
+            android:tag="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:src="@drawable/blub_bg" />
+
+        <ImageView
+
+            android:onClick="buttonClick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/led_bg"
+            android:tag="10"
+            android:layout_margin="5dp"
+            android:layout_weight="2" />
+
+        <ImageView
+
+            android:onClick="buttonClick"
+            android:tag="11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/fan_bg"
+            android:layout_weight="2" />
+
+        <ImageView
+            android:onClick="buttonClick"
+            android:tag="12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/charging_bg"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+</LinearLayout>
